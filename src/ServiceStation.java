@@ -1,5 +1,5 @@
 public class ServiceStation{
-    public void checkAuto(Bicycle bicycle) {
+    public void checkAuto(Transport bicycle) {
         System.out.println("Обслуживаем " + bicycle.getModelName());
             for (int i = 0; i < bicycle.getWheelsCount(); i++) {
                 bicycle.updateTyre();
